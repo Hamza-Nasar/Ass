@@ -1,4 +1,4 @@
-var car = { brand: 'Toyota', model: 'Corolla', year: 2020 };
+var car = { brand: 'Mercidies', model: 'G63', year: 2020 };
 console.log(car.brand);
 console.log(car.model);
 console.log(car.year);
@@ -15,7 +15,7 @@ student.showMarks = function () {
     alert(this.marks);
 };
 
-var user = { name: 'Ali', address: { city: 'Lahore', zip: 54000 } };
+var user = { name: 'Ali Hamza', address: { city: 'Lahore', zip: 54000 } };
 
 var book = { title: 'JS Basics', pages: 200, author: 'John' };
 for (var key in book) {
@@ -75,11 +75,11 @@ function Person(name) {
     this.name = name;
     return { name: 'Custom' };
 }
-var p4 = new Person('Ali');
+var p4 = new Person('Ali Hamza');
 console.log(p4.name);
 
 function Student(name, marks) { this.name = name; this.marks = marks; }
-var students = [new Student('Ali', 90), new Student('Sara', 85)];
+var students = [new Student('Ali', 90), new Student('Hamza', 85)];
 
 Person.prototype.greet = function () { alert('Hello!'); };
 
@@ -98,8 +98,8 @@ Person.prototype.sleep = function () { console.log(this.name + ' is sleeping'); 
 function Car(brand, year) { this.brand = brand; this.year = year; }
 Car.prototype.getInfo = function () { return this.brand + ' ' + this.year; };
 
-var car1 = new Car('Toyota', 2020);
-var car2 = new Car('Honda', 2021);
+var car1 = new Car('Civic', 2020);
+var car2 = new Car('Bmw', 2021);
 console.log(car1.getInfo === car2.getInfo);
 
 console.log(p1.constructor === Person);
