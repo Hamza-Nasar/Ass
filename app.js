@@ -1,4 +1,4 @@
-var car = { brand: 'Mercidies', model: 'G63', year: 2020 };
+var car = { brand: 'Mercedes', model: 'G63', year: 2020 };
 console.log(car.brand);
 console.log(car.model);
 console.log(car.year);
@@ -15,7 +15,7 @@ student.showMarks = function () {
     alert(this.marks);
 };
 
-var user = { name: 'Ali Hamza', address: { city: 'Lahore', zip: 54000 } };
+var user = { name: 'Ali Hamza', address: { city: 'Karachi', zip: 74000 } };
 
 var book = { title: 'JS Basics', pages: 200, author: 'John' };
 for (var key in book) {
