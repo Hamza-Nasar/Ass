@@ -1,4 +1,4 @@
-----//(Part 1)//----
+//----(Part 1)----//
 
 
 //Q1
@@ -53,7 +53,7 @@ for (var key in animal) { newAnimal[key] = animal[key]; }
 console.log(newAnimal);
 
 
-----//(Part 2)//----
+//----(Part 2)----//
 
 
 //Q1
@@ -112,7 +112,7 @@ function Student(name, marks) { this.name = name; this.marks = marks; }
 var students = [new Student('Ali', 90), new Student('Hamza', 85)];
 
 
-----//(Part 2)//----
+//----(Part 3)----//
 
 
 //Q1
